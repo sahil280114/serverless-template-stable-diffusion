@@ -3,6 +3,7 @@ from torch import autocast
 from diffusers import StableDiffusionPipeline, LMSDiscreteScheduler
 import base64
 from io import BytesIO
+import os
 
 # Init is ran on server startup
 # Load your model to GPU as a global variable here using the variable name "model"
