@@ -8,7 +8,7 @@ If you want to generalize this to deploy anything on Banana, [see the guide here
 ## Quickstart:  j
 c
 The repo is already set up to run [Stable Diffusion](https://huggingface.co/CompVis/stable-diffusion-v1-4) text-to-image model.
-1. Run `pip3 install -r requirements.txt` to download dependencies.
+1. Run `pip3 install -r requirements.txt` to download wdependencies.
 2. Run `python3 server.py` to start the server.
 3. Run `python3 test.py` in a different terminal session to test against it.
 
